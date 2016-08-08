@@ -1,6 +1,6 @@
 # CSS Structure with SASS
 
-This is merely a starting point for how I prefer to structure my CSS.  I had followed several guides that have led me to create this Frankenstein.
+This is merely a starting point for how I prefer to structure my CSS.  I had followed several guides that have led me to create this Frankenstein.  If you prefer LESS, you can view a [version] exactly like this!
 
 What you can do:
   - Restructure it in any form or fashion that you so please!
@@ -137,6 +137,10 @@ The technology uses:
 
 Please be aware that it is a work in progress =)
 
+### About Me
+
+I am a software developer living in Nashville, TN.  Feel free to contact me with any questions or concerns by visiting [my website].
+
 License
 ----
 
@@ -162,3 +166,5 @@ MIT
    [MindBEMding]: <http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/>
    [SASS]: <http://sass-lang.com/>
    [SASSmeister]: <http://www.sassmeister.com/>
+   [version]: <https://github.com/jmahc/css-structure_less>
+   [my website]: <http://jordanmcardle.me/>
