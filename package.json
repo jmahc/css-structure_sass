@@ -1,0 +1,15 @@
+{
+  "name": "css-structure_sass",
+  "version": "1.0.0",
+  "description": "How I like to structure my CSS files.  This is the version for SASS (.scss)",
+  "author": {
+    "name": "Jordan McArdle",
+    "email": "jordanmcardle@gmail.com",
+    "url": "http://www.jordanmcardle.me"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmahc/css-structure_sass.git"
+  }
+}

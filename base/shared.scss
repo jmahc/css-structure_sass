@@ -1,0 +1,28 @@
+@import "../variables/_variables";
+// BEM allows for these names :)
+
+.desktop {
+    @media (max-width: $screen-xs-max) {
+        display: none;
+    }
+    @media (min-width: $screen-sm-min) {
+        display: block;
+    }
+}
+
+.mobile {
+    @media (max-width: $screen-xs-max) {
+        display: block;
+    }
+    @media (min-width: $screen-sm-min) {
+        display: none;
+    }
+}
+
+.capitalize {
+    text-transform: uppercase;
+}
+
+.center {
+    text-align: center;
+}
