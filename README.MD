@@ -113,7 +113,6 @@ This lives at the root of the project directory.
 
  - Improve README
  - Create .sass version
- - Create .less version
 
 ### Other good sources/tools
 
