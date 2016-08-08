@@ -94,6 +94,7 @@ That way, if the designer decides to change the main/primary color, it only has 
 ### Tech
 
 Only thing that you will need is a preprocessor compiler for SASS!
+
 * [Koala] - A build-process free LESS/SASS compiler
 
 That sounds simple enough, however, I suggest you get yourself a build process using:
