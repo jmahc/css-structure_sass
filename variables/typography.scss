@@ -1,0 +1,28 @@
+// Example importing Google Fonts
+@import "https://fonts.googleapis.com/css?family=Inconsolata|Roboto|Roboto+Condensed|Source+Sans+Pro|Ubuntu";
+
+// Fonts sourced from Google
+$font-roboto: 'Roboto', 'Helvetica', sans-serif;
+$font-roboto-condenssed: 'Roboto Condensed', 'Helvetica', sans-serif;
+$font-source-sans-pro: 'Source Sans Pro', 'Helvetica', sans-serif;
+$font-ubuntu: 'Ubuntu', 'Helvetica', sans-serif;
+$font-inconsolata: 'Inconsolata', monospace;
+
+// Example importing local fonts using the font-path variable
+$font-path: "/fonts";
+
+@font-face {
+    font-family: "SampleFont";
+    font-style: normal;
+    font-weight: 500;
+    src: url("#($font-path)/SampleFont.eot?") format("eot"),
+         url("#($font-path)/SampleFont.woff2") format("woff2"),
+         url("#($font-path)/SampleFont.woff") format("woff");
+}
+
+$font-sample-font: 'Sample Font', 'Helvetica', sans-serif;
+
+// Generic names to promote maintainability
+$font-primary: $font-sample-font;
+$font-secondary: $font-roboto;
+$font-tertiary: $font-inconsolata;
