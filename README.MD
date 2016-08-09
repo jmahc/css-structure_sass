@@ -1,5 +1,9 @@
 # CSS Structure with SASS
 
+## UPDATE (August 9, 2016)
+
+As I was messing around with webpack until 4 AM, I realized that each time that I import a file, I am duplicating that CSS.  This is supposedly to be resolved in SASS 4.0 - so, until then, enjoy my LESS [version]!!
+
 This is merely a starting point for how I prefer to structure my CSS.  I had followed several guides that have led me to create this Frankenstein.  If you prefer LESS, you can view a [version] exactly like this!
 
 What you can do:
