@@ -1,0 +1,25 @@
+//== Thumbnails
+//
+//##
+
+//** Padding around the thumbnail image
+//$thumbnail-padding:           4px !default;
+//** Thumbnail background color
+// $thumbnail-bg:                $body-bg !default;
+// //** Thumbnail border color
+// $thumbnail-border:            $color-alto !default;
+// //** Thumbnail border radius
+// $thumbnail-border-radius:     $border-radius-base !default;
+
+//** Custom text color for thumbnail captions
+$thumbnail-caption-color:     $text-color !default;
+//** Padding around the thumbnail caption
+$thumbnail-caption-padding:   9px !default;
+
+
+// Bootstrap v4.0.0-alpha.3
+$thumbnail-padding:           .25rem !default;
+$thumbnail-border-width:      $border-width !default;
+$thumbnail-border-color:      $color-alto !default;
+$thumbnail-border-radius:     $border-radius !default;
+$thumbnail-box-shadow:        0 1px 2px rgba(0,0,0,.075) !default;

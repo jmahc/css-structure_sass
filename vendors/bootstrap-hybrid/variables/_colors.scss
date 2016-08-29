@@ -1,0 +1,41 @@
+//
+// = = Colors
+// Bootstrap v4.0.0-alpha.3
+//
+$gray : #55595c !default;
+$gray-base : #000 !default;
+$gray-dark : #373a3c !default;
+$gray-darker : lighten($gray-base, 13.5%) !default; // #222
+$gray-light : #818a91 !default;
+$gray-lighter : #eceeef !default;
+$gray-lightest : #f7f7f9 !default;
+
+$brand-danger : #d9534f !default;
+$brand-info : #5bc0de !default;
+$brand-inverse : $gray-dark !default;
+$brand-primary : #0275d8 !default;
+$brand-success : #5cb85c !default;
+$brand-warning : #f0ad4e !default;
+
+$color-alto : #dddddd;
+$color-appleBlossom: #a94442;
+$color-athensGray : #f7f7f9;
+$color-bizarre : #f2dede;
+$color-calypso : #31708f;
+$color-cornflowerBlue: #66afe9;
+$color-crail: : #bd4147;
+$color-dustyGray : #999999;
+$color-emperor : #555555;
+$color-gallery : #eeeeee;
+$color-killarney : #3c763d;
+$color-linkWater : #d9edf7;
+$color-malibu : #84c6ff;
+$color-mercury : #e5e5e5;
+$color-mineShaft : #333333;
+$color-pearlLusta : #fcf8e3;
+$color-peppermint : #dff0d8;
+$color-pictonBlue :#51a7e8;
+$color-pottersClay : #8a6d3b;
+$color-scienceBlue : #0074d9;
+$color-silver : #cccccc;
+$color-whiteSand : #f5f5f5;

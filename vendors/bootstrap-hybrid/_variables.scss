@@ -1,0 +1,54 @@
+$bootstrap-sass-asset-helper: false !default;
+
+@mixin _assert-ascending($map, $map-name) {
+  $prev-key: null;
+  $prev-num: null;
+  @each $key, $num in $map {
+    @if $prev-num == null {
+      // Do nothing
+    } @else if not comparable($prev-num, $num) {
+      @warn "Potentially invalid value for #{$map-name}: This map must be in ascending order, but key '#{$key}' has value #{$num} whose unit makes it incomparable to #{$prev-num}, the value of the previous key '#{$prev-key}' !";
+    } @else if $prev-num >= $num {
+      @warn "Invalid value for #{$map-name}: This map must be in ascending order, but key '#{$key}' has value #{$num} which isn't greater than #{$prev-num}, the value of the previous key '#{$prev-key}' !";
+    }
+    $prev-key: $key;
+    $prev-num: $num;
+  }
+}
+
+@import "../overrides";
+
+@import "variables/colors";
+@import "variables/options";
+@import "variables/spacing";
+@import "variables/body";
+@import "variables/links";
+@import "variables/grid-breakpoints";
+@import "variables/container-sizes";
+@import "variables/typography";
+@import "variables/type";
+@import "variables/components";
+@import "variables/tables";
+@import "variables/buttons";
+@import "variables/forms";
+@import "variables/dropdowns";
+@import "variables/z-index";
+@import "variables/navbar";
+@import "variables/navs-tabs-pills";
+@import "variables/pagination";
+@import "variables/jumbotron";
+@import "variables/form-states-alerts";
+@import "variables/cards";
+@import "variables/tooltips";
+@import "variables/popovers";
+@import "variables/tags";
+@import "variables/modals";
+@import "variables/alerts";
+@import "variables/progress-bars";
+@import "variables/list-group";
+@import "variables/thumbnails";
+@import "variables/breadcrumbs";
+@import "variables/media";
+@import "variables/carousel";
+@import "variables/close";
+@import "variables/code";
