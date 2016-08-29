@@ -1,34 +1,27 @@
-/* Coolors Exported Palette - coolors.co/75dddd-508991-172a3a-004346-09bc8a */
-/* HSL */
-$color1: hsla(180%, 60%, 66%, 1);
-$color2: hsla(187%, 29%, 44%, 1);
-$color3: hsla(207%, 43%, 16%, 1);
-$color4: hsla(183%, 100%, 14%, 1);
-$color5: hsla(163%, 91%, 39%, 1);
+// Custom colors
+// Notes:
+// 1. These are utilized in bootstrap
+// 2. Can be used throughout the rest of the application
 
-/* RGB */
-$color1: rgba(117, 221, 221, 1);
-$color2: rgba(80, 137, 145, 1);
-$color3: rgba(23, 42, 58, 1);
-$color4: rgba(0, 67, 70, 1);
-$color5: rgba(9, 188, 138, 1);
-
-/*
-    Color Naming
-    - Generated on http://coolors.co or another option is http://chir.ag/projects/name-that-color/
-    - This helps me wrap my head around color names!
-*/
-
-$color-middle-blue:     $color1;
-$color-steel-teal:      $color2;
-$color-yankees-blue:    $color3;
-$color-warm-black:      $color4;
-$color-caribbean-green: $color5;
-
-/*
-    Suggestions:
-    - Having primary color names to be used more-so than the above mentioned names.
-    - This will allow you to make a change in one place, rather than multiple CSS files =)
-*/
-// $color-primary: xxx
-// $color-secondary: xxx
+$color-gainsboro    : #dddddd;
+$color-mediumCarmine: #a94442;
+$color-cultured     : #f7f7f9;
+$color-palePink     : #f2dede;
+$color-calypso      : #31708f;
+$color-blueJeans    : #66afe9;
+$color-deepChestnut : #bd4147;
+$color-spanishGray  : #999999;
+$color-emperor      : #555555;
+$color-gallery      : #eeeeee;
+$color-fernGreen    : #3c763d;
+$color-azureish     : #d9edf7;
+$color-malibu       : #84c6ff;
+$color-mercury      : #e5e5e5;
+$color-jet          : #333333;
+$color-cosmicLatte  : #fcf8e3;
+$color-eggshell     : #dff0d8;
+$color-pictonBlue   : #51a7e8;
+$color-coyoteBrown  : #8a6d3b;
+$color-trueBlue     : #0074d9;
+$color-silver       : #cccccc;
+$color-whiteSand    : #f5f5f5;

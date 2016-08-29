@@ -3,10 +3,11 @@
 // [converter] $parent hack
 @mixin bg-variant($parent, $color) {
   #{$parent} {
-    background-color: $color;
+    color: white !important;
+    background-color: $color !important;
   }
   a#{$parent}:hover,
   a#{$parent}:focus {
-    background-color: darken($color, 10%);
+    background-color: darken($color, 10%) !important;
   }
 }

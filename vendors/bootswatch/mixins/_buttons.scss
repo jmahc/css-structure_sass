@@ -1,0 +1,23 @@
+@mixin btn($class,$bg) {
+  .btn-#{$class} {
+    background-position: 50%;
+    background-size: 200% 200%;
+
+    &:focus {
+      background-color: $bg;
+    }
+
+    &:hover,
+    &:active:hover {
+      background-color: darken($bg, 6%);
+    }
+
+    &:active {
+      background-color: darken($bg, 12%);
+      background-size: 1000% 1000%;
+
+      @include gradient-radial(darken($bg, 12%) 10%, $bg 11%);
+      @include box-shadow(2px 2px 4px rgba(0,0,0,.4));
+    }
+  }
+}

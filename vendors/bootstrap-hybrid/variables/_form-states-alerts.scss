@@ -7,19 +7,19 @@
 // $state-success-border:           darken(adjust-hue($state-success-bg, -10), 5%) !default;
 
 // Bootstrap v4.0.0-alpha.3
-$state-success-text:             $color-killarney !default;
-$state-success-bg:               $color-peppermint !default;
+$state-success-text:             $color-fernGreen !default;
+$state-success-bg:               $color-eggshell !default;
 $state-success-border:           darken($state-success-bg, 5%) !default;
 
 $state-info-text:                $color-calypso !default;
-$state-info-bg:                  $color-linkWater !default;
+$state-info-bg:                  $color-azureish !default;
 $state-info-border:              darken($state-info-bg, 7%) !default;
 
-$state-warning-text:             $color-pottersClay !default;
-$state-warning-bg:               $color-pearlLusta !default;
+$state-warning-text:             $color-coyoteBrown !default;
+$state-warning-bg:               $color-cosmicLatte !default;
 $mark-bg:                        $state-warning-bg !default;
 $state-warning-border:           darken($state-warning-bg, 5%) !default;
 
-$state-danger-text:              $color-appleBlossom !default;
-$state-danger-bg:                $color-bizarre !default;
+$state-danger-text:              $color-mediumCarmine !default;
+$state-danger-bg:                $color-palePink !default;
 $state-danger-border:            darken($state-danger-bg, 5%) !default;

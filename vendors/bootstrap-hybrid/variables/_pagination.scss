@@ -4,15 +4,15 @@
 
 $pagination-color:                     $link-color !default;
 $pagination-bg:                        white !default;
-$pagination-border:                    $color-alto !default;
+$pagination-border:                    $color-gainsboro !default;
 
 // Bootstrap v4.0.0-alpha.3
 $pagination-border-width:              $border-width !default;
-$pagination-border-color:              $color-alto !default;
+$pagination-border-color:              $color-gainsboro !default;
 
 $pagination-hover-color:               $link-hover-color !default;
 $pagination-hover-bg:                  $gray-lighter !default;
-$pagination-hover-border:              $color-alto !default;
+$pagination-hover-border:              $color-gainsboro !default;
 
 $pagination-active-color:              white !default;
 $pagination-active-bg:                 $brand-primary !default;
@@ -20,7 +20,7 @@ $pagination-active-border:             $brand-primary !default;
 
 $pagination-disabled-color:            $gray-light !default;
 $pagination-disabled-bg:               white !default;
-$pagination-disabled-border:           $color-alto !default;
+$pagination-disabled-border:           $color-gainsboro !default;
 
 // Bootstrap v4.0.0-alpha.3
 $pagination-padding-x:                .75rem !default;
