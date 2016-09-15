@@ -1,12 +1,7 @@
-//== Form states and alerts
+// Form states and alerts
 //
-//## Define colors for form feedback states and, by default, alerts.
+// Define colors for form feedback states and, by default, alerts.
 
-//$state-success-text:             #3c763d !default;
-//$state-success-bg:               #dff0d8 !default;
-// $state-success-border:           darken(adjust-hue($state-success-bg, -10), 5%) !default;
-
-// Bootstrap v4.0.0-alpha.3
 $state-success-text:             $color-fernGreen !default;
 $state-success-bg:               $color-eggshell !default;
 $state-success-border:           darken($state-success-bg, 5%) !default;

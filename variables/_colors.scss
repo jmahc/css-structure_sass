@@ -1,27 +1,69 @@
+// Colors
+
+// Bootstrap v4.0.0-alpha.3
+//
+$gray-darker  : #222222 !default;
+$gray-dark    : #373a3c !default;
+$gray         : #55595c !default;
+$gray-light   : #818a91 !default;
+$gray-lighter : #eceeef !default;
+$gray-lightest: #f7f7f9 !default;
+
+$brand-primary: #0275d8 !default;
+$brand-success: #5cb85c !default;
+$brand-info   : #5bc0de !default;
+$brand-warning: #f0ad4e !default;
+$brand-danger : #d9534f !default;
+$brand-inverse: $gray-dark !default;
+
+
 // Custom colors
 // Notes:
 // 1. These are utilized in bootstrap
 // 2. Can be used throughout the rest of the application
-
-$color-gainsboro    : #dddddd;
-$color-mediumCarmine: #a94442;
-$color-cultured     : #f7f7f9;
-$color-palePink     : #f2dede;
-$color-calypso      : #31708f;
-$color-blueJeans    : #66afe9;
-$color-deepChestnut : #bd4147;
-$color-spanishGray  : #999999;
-$color-emperor      : #555555;
-$color-gallery      : #eeeeee;
-$color-fernGreen    : #3c763d;
 $color-azureish     : #d9edf7;
-$color-malibu       : #84c6ff;
-$color-mercury      : #e5e5e5;
-$color-jet          : #333333;
+$color-black        : #000000;
+$color-blueJeans    : #66afe9;
+$color-calypso      : #31708f;
 $color-cosmicLatte  : #fcf8e3;
-$color-eggshell     : #dff0d8;
-$color-pictonBlue   : #51a7e8;
 $color-coyoteBrown  : #8a6d3b;
-$color-trueBlue     : #0074d9;
+$color-cultured     : #f7f7f9;
+$color-deepChestnut : #bd4147;
+$color-eggshell     : #dff0d8;
+$color-emperor      : #555555;
+$color-fernGreen    : #3c763d;
+$color-gainsboro    : #dddddd;
+$color-gallery      : #eeeeee;
+$color-jet          : #333333;
+$color-malibu       : #84c6ff;
+$color-mediumCarmine: #a94442;
+$color-mercury      : #e5e5e5;
+$color-midnightBlue : #003767;
+$color-palePink     : #f2dede;
+$color-pictonBlue   : #51a7e8;
 $color-silver       : #cccccc;
+$color-skyBlue      : #84c6ff;
+$color-sonicSilver  : #767676;
+$color-spanishGray  : #999999;
+$color-trueBlue     : #0074d9;
+$color-white        : #ffffff;
 $color-whiteSand    : #f5f5f5;
+
+$color-primary      : $color-midnightBlue;
+$color-vaco         : $color-primary;
+
+
+// Paper
+//
+// $gray-base:              #000 !default;
+// $gray-darker:            lighten($gray-base, 13.5%) !default; // #222
+// $gray-dark:              #212121 !default;
+// $gray:                   #666 !default;
+// $gray-light:             #bbb !default;
+// $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+//
+// $brand-primary:         #2196F3 !default;
+// $brand-success:         #4CAF50 !default;
+// $brand-info:            #9C27B0 !default;
+// $brand-warning:         #ff9800 !default;
+// $brand-danger:          #e51c23 !default;

@@ -1,10 +1,11 @@
-//== Alerts
+// Alerts
 //
-//## Define alert colors, border radius, and padding.
+// Define alert colors, border radius, and padding.
 
 $alert-padding:               15px !default;
-//$alert-border-radius:         $border-radius-base !default;
+$alert-border-radius:         $border-radius !default;
 $alert-link-font-weight:      bold !default;
+$alert-border-width:          $border-width !default;
 
 $alert-success-bg:            $state-success-bg !default;
 $alert-success-text:          $state-success-text !default;
@@ -21,7 +22,3 @@ $alert-warning-border:        $state-warning-border !default;
 $alert-danger-bg:             $state-danger-bg !default;
 $alert-danger-text:           $state-danger-text !default;
 $alert-danger-border:         $state-danger-border !default;
-
-// Bootstrap v4.0.0-alpha.3
-$alert-border-radius:         $border-radius !default;
-$alert-border-width:          $border-width !default;

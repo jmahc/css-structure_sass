@@ -1,0 +1,26 @@
+// CSS image replacement
+//  BS 4 version
+// but IE10 doesn't like font: so....
+// @mixin text-hide() {
+//   font: 0/0 a;
+//   color: transparent;
+//   text-shadow: none;
+//   background-color: transparent;
+//   border: 0;
+// }
+@mixin text-hide() {
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 0px;
+  line-height: 0;
+  font-family: a;
+
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}

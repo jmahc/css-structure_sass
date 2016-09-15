@@ -2,12 +2,13 @@
 // Contextual backgrounds
 //
 
-.bg-inverse {
-  background-color: $brand-inverse;
-}
-
-.bg-faded {
-  background-color: $gray-lightest;
+.bg {
+  &-inverse {
+    background-color: $brand-inverse;
+  }
+  &-faded {
+    background-color: $gray-lightest;
+  }
 }
 
 @include bg-variant('.bg-primary', $brand-primary);

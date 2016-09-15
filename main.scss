@@ -1,4 +1,18 @@
-@import "vendors/_vendors";
-@import "variables/_variables";
-@import "base/_base";
-@import "components/_components";
+// Core variables and mixins
+@import "variables/variables";
+
+// Vendor variables and mixins
+@import "vendors/vendor-variables";
+
+// Bootswatch Overrides
+// @import "vendors/bootswatch";
+
+// Reset and dependencies
+@import "vendors/normalize";
+
+// Vendors
+@import "vendors/font-awesome/font-awesome";
+@import "vendors/bootstrap-hybrid/bootstrap";
+
+// Utilities
+@import "utilities/utilities";

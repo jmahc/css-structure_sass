@@ -1,5 +1,3 @@
-$bootstrap-sass-asset-helper: false !default;
-
 @mixin _assert-ascending($map, $map-name) {
   $prev-key: null;
   $prev-num: null;
@@ -16,17 +14,13 @@ $bootstrap-sass-asset-helper: false !default;
   }
 }
 
-@import "../overrides";
-
-@import "variables/colors";
 @import "variables/options";
 @import "variables/spacing";
 @import "variables/body";
 @import "variables/links";
 @import "variables/grid-breakpoints";
-@import "variables/container-sizes";
-@import "variables/typography";
-@import "variables/type";
+@import "variables/grid-containers";
+@import "variables/grid-columns";
 @import "variables/components";
 @import "variables/tables";
 @import "variables/buttons";
@@ -47,6 +41,7 @@ $bootstrap-sass-asset-helper: false !default;
 @import "variables/progress-bars";
 @import "variables/list-group";
 @import "variables/thumbnails";
+@import "variables/figures";
 @import "variables/breadcrumbs";
 @import "variables/media";
 @import "variables/carousel";

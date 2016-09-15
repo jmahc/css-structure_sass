@@ -8,17 +8,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-// Core variables and mixins
-// This was: @import "custom";
-@import "../overrides";
-@import "variables";
-@import "mixins";
-
-// Reset and dependencies
-@import "../normalize";
+// Dependencies
 @import "print";
-// No longer used in v4
-// @import "glyphicons";
 
 // Core CSS
 @import "reboot";
@@ -31,34 +22,27 @@
 @import "buttons";
 
 // Components
-@import "component-animations";
-@import "dropdowns";
-@import "button-groups";
-@import "input-groups";
-@import "navs";
+@import "animation";
+@import "dropdown";
+@import "button-group";
+@import "input-group";
+@import "custom-forms";
+@import "nav";
 @import "navbar";
-@import "breadcrumbs";
+@import "card";
+@import "breadcrumb";
 @import "pagination";
-@import "pager";
-@import "labels";
-@import "badges";
+@import "tags";
 @import "jumbotron";
-@import "thumbnails";
-@import "alerts";
-@import "progress-bars";
+@import "alert";
+@import "progress";
 @import "media";
 @import "list-group";
-@import "panels";
 @import "responsive-embed";
-@import "wells";
 @import "close";
 
 // Components w/ JavaScript
-@import "modals";
+@import "modal";
 @import "tooltip";
-@import "popovers";
+@import "popover";
 @import "carousel";
-
-// Utility classes
-@import "utilities";
-@import "responsive-utilities";

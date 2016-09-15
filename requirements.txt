@@ -1,0 +1,18 @@
+·         We will use a custom Bootstrap fork, taking a few items from Bootstrap 4
+·         We will use the “Paper” theme on Bootswatch as a starting point (http://bootswatch.com/paper/)
+
+
+oRestore white backgrounds in form fields as well as add back some padding
+o   Add a light-grey border around form fields. We want it light, but dark enough to
+        show on zebra-striped rows or other light color backgrounds.
+o   Remove/ignore nav bar elements and replace with our own custom implementation
+o   Links should always be blue, and underline on hover
+o   Primary button color should be #003767 (official v. alexander color).
+        Keep Paper’s original hover color for primary buttons (#0d87e9)
+
+o   Change btn-radius to .15em
+o   Use Bootstrap 4’s secondary outline button for all disabled buttons, regardless of type (primary, secondary, etc.) This is because there is no difference between a primary disabled button and a secondary disabled button, etc.
+o   Remove/ignore row-color classes, other than for zebra striping. We will use the left-side colored blocks (ala EMS Control Panel) if a row needs to be highlighted or assigned a status indicator.
+o   Modify Paper’s form label alignment to be left-aligned, instead of right-aligned. We will continue to use horizontal label/form field relationships, as opposed to having the label on top of the form input.
+§  Exception: Mobile layouts. Consider the float label pattern.
+·         Consider using cards for Account Team page display in Vision
